@@ -62,8 +62,9 @@ Spatial Extent (in meters) -
 - Top: 2390439.786  
 - Left: -656204.44  
 - Right: 717795.56  
-- Bottom: 940439.786
-Spatial Reference: Albers Equal Area  
+- Bottom: 940439.786  
+
+#### Spatial Reference: Albers Equal Area  
 Datum: North American 1983  
 False Easting: 0  
 False Northing: 0  
@@ -72,14 +73,14 @@ Standard Parallel 1: 55
 Standard Parallel 2: 65  
 Latitude of Origin: 50
 
-Geographic extent (decimal degrees, degrees minutes seconds):
+#### Geographic extent (decimal degrees, degrees minutes seconds):
 
 West:  -171.629623, 171° 37' 46.6428" W  
 East:  -134.802738, 134° 48' 09.8568" W  
 North:   71.516416,  71° 30' 59.0976" N  
 South:   57.871126,  57° 52' 16.0530" N  
 
-Information for TIFF worldfile (.tfw). All units are meters (m):  
+#### Information for TIFF worldfile (.tfw). All units are meters (m):  
 2000
 0  
 0  
