@@ -5,7 +5,7 @@
 
 
 Global Ecology and Biogeography:  
-Young, A.M., P.E. Higuera, J.T. Abatzoglou, P.E. Duffy, and F.S. Hu. (2019).  Consequences of climatic thresholds for projecting fire activity and ecological change. Global Ecology and Biogeography. doi: dx.doi.org/10.1111/geb.12872 
+Young, A.M., P.E. Higuera, J.T. Abatzoglou, P.E. Duffy, and F.S. Hu. (2019).  Consequences of climatic thresholds for projecting fire activity and ecological change. Global Ecology and Biogeography. doi: https://doi.org/10.1111/geb.12872 
 
 Dryad Digital Repository doi: https://doi.org/10.5061/dryad.82vs647
 
