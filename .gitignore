@@ -1,4 +1,4 @@
 .DS_Store
 ./code/.DS_Store
-./code/.Rapp.history
-./code/.Rhistory
+/code/.Rapp.history
+/code/.Rhistory
