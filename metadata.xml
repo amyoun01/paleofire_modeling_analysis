@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Adam M Young</origin>
+        <pubdate>2019</pubdate>
+        <title>Data from: Consequences of climatic thresholds for projecting fire activity and ecological change (Young et al. Global Ecology and Biogeography, doi: 10.1111/geb.12872)</title>
+        <geoform>raster digital data</geoform>
+        <othercit>Young A.M., Higuera P.E., Abatzoglou, J.T., Duffy P.A., Hu F.S. (2019) Data from: Consequences of climatic thresholds for projecting fire activity and ecological change. Dryad Digital Repository. https://doi.org/10.5061/dryad.82vs647</othercit>
+        <onlink>https://doi.org/10.5061/dryad.82vs647</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This archive includes metadata, code, results, and figures reproducing the results presented in Young et al. (In Press). There are five main directories containing this information in this data archive. 
+
+*Additionally, please note in the "code", "data", and "results" directories we provide additional README files providing further details regarding all the files and code provided in this archive, as well as citations when appropriate.
+
+(1) code - contains all the individual Matlab and R scripts, including customized functions, needed to conduct the analyses and produce the results presented in the main text of the manuscript.
+
+(2) data - containing the ancillary data, pre-processed data, and citations for the raw datasets needed to conduct the analyses described in the manuscript. 
+
+(3) figures - contains the figures from the publication in three different formats at 600 dpi resolution (MATLAB .fig, .jpeg, and .tif formats).
+
+(4) metadata - documentation/description of this archive using FGDC standards in an xml format, including geographic metadata for the raster datasets generated during the workflow of the analysis. This metadata was originally generated using Tkme (version 3.0.5) by Peter N. Schweitzer and updated using the USGS Metadata Wizard (version 2.0.3). The thesaurus used for keyword selection was the Global Change Master Directory (version 8.6, 2018).
+
+(5) results - series of results produced from processing the raw data stored in the "data" directory using the code provided. 
+
+	******************************************IMPORTANT***********************************************
+	- We also include separate 7z compressed files for the downscaled 30-yr climatologies for each GCM
+	  from 850-1850 CE. These are separated into individual files due to their large storage size 
+	  (~5 GB). 
+	  
+	  Each of these compressed files should be extracted into the following directories to recreate the analyses: 
+		..\results\⁩3_gcm_30yr_climatologies⁩\used_in_analysis\[GCM]\
+
+	  The four compressed folders are: 
+		(1) z_GISS-E2-R.7z
+		(1) z_MPI-ESM-LR.7z
+		(1) z_MPI-ESM-P.7z
+		(1) z_MRI-CGCM3.7z
+	**************************************************************************************************
+
+*Please note, the raw data used to conduct this analysis are not included in this archive. These data are already archived publicly, and we are not able to redistribute them ourselves. Detailed descriptions of the datasets we downloaded to run our analyses are provided, as well as download URLs when available.
+
+*Please note, the analyses are recreated using the Matlab and R scripts in the "code" directory, and if these are run they can overwrite current output in the results and figures directories downloaded with this archive. To avoid overwriting, new output/save directories should be generated and the directory names in the scripts should be changed.
+
+*Please note, the Spatial_Data_Organization_Information and the Spatial_Reference_Information fields in this metatdata file represent the information for the raster maps generated in this analysis for the study area of mainland Alaska. This includes the downscaled monthly GeoTIFF files and the 30-yr climatological maps generated. 
+
+Citations:
+
+Global Change Master Directory (GCMD). 2018. GCMD Keywords, Version 8.6. Greenbelt, MD: Global Change Data Center, Science and Exploration Directorate, Goddard Space Flight Center (GFSC) National Aeronautics and Space Administration (NASA). URL (GCMD Keyword Forum Page): https://wiki.earthdata.nasa.gov/display/gcmdkey
+
+Schweitzer, Peter N. Tkme: Another editor for formal metadata (version 3.0.5). U.S. Geological Survey, Reston, VA 22092. Downloaded 2018-12-12 from https://geology.usgs.gov/tools/metadata/tkme.exe
+
+USGS Metatdata Wizard (version 2.0.3). The Metadata Wizard was developed by the USGS Fort Collins Science Center With help from the USGS Council for Data integration (CDI) and the USGS Core Science Analytics, Synthesis, and Libraries (CSAS&amp;L). Contact: Colin Talbert at talbertc[at]usgs.gov. Project page: https://github.com/usgs/fort-pymdwizard. 
+
+Young, A.M., P.E. Higuera, J.T. Abatzoglou, P.E. Duffy, and F.S. Hu. (In Press). Consequences of climatic thresholds for projecting fire activity and ecological change. Global Ecology and Biogeography. doi: 10.1111/geb.12872</abstract>
+      <purpose>The purpose of this data archive is to provide the datasets, code, and results needed to produce the results in: Young, A.M., P.E. Higuera, J.T. Abatzoglou, P.E. Duffy, and F.S. Hu. Consequences of climatic thresholds for projecting fire activity and ecological change. Global Ecology and Biogeography. doi: 10.1111/geb.12872</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>08500101</begdate>
+          <enddate>21001231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>The currentness of this reference time period are the earliest and latest time values provided by the GCMs
+under the CMIP5 experiments. Here, the past1000 experiments start on 0850-01-01 and the rcp85
+output ends on 2100-12-31</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-171.629623</westbc>
+        <eastbc>-134.802738</eastbc>
+        <northbc>71.516416</northbc>
+        <southbc>57.871126</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</themekt>
+        <themekey>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; FIRE ECOLOGY &gt; FIRE MODELS</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</themekt>
+        <themekey>EARTH SCIENCE &gt; AGRICULTURE &gt; FOREST SCIENCE &gt; FOREST FIRE SCIENCE</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</themekt>
+        <themekey>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; FIRE ECOLOGY &gt; FIRE OCCURRENCE</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</themekt>
+        <themekey>EARTH SCIENCE &gt; BIOSPHERE &gt; TERRESTRIAL ECOSYSTEMS &gt; ALPINE/TUNDRA &gt; ARCTIC TUNDRA</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</themekt>
+        <themekey>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOSYSTEMS &gt; TERRESTRIAL ECOSYSTEMS &gt; ALPINE/TUNDRA &gt; ALPINE TUNDRA</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</themekt>
+        <themekey>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOSYSTEMS &gt; TERRESTRIAL ECOSYSTEMS &gt; FORESTS &gt; BOREAL FOREST/TAIGA</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</themekt>
+        <themekey>EARTH SCIENCE SERVICES &gt; MODELS &gt; ATMOSPHERIC GENERAL CIRCULATION MODELS</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</themekt>
+        <themekey>EARTH SCIENCE SERVICES &gt; MODELS &gt; CLIMATE CHANGE IMPACT ASSESSMENT MODELS</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</themekt>
+        <themekey>EARTH SCIENCE SERVICES &gt; MODELS &gt; GEOLOGIC/TECTONIC/PALEOCLIMATE MODELS</themekey>
+      </theme>
+      <place>
+        <placekt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</placekt>
+        <placekey>CONTINENT &gt; NORTH AMERICA &gt; UNITED STATES OF AMERICA &gt; ALASKA</placekey>
+      </place>
+      <stratum>
+        <stratkt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</stratkt>
+        <stratkey>1 km - &lt; 10 km or approximately .01 degree - &lt; .09 degree</stratkey>
+      </stratum>
+      <stratum>
+        <stratkt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</stratkt>
+        <stratkey>10 km - &lt; 50 km or approximately .09 degree - &lt; .5 degree</stratkey>
+      </stratum>
+      <stratum>
+        <stratkt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</stratkt>
+        <stratkey>100 km - &lt; 250 km or approximately 1 degree - &lt; 2.5 degrees</stratkey>
+      </stratum>
+      <stratum>
+        <stratkt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</stratkt>
+        <stratkey>Point Resolution</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</tempkt>
+        <tempkey>MONTHLY TO ANNUAL</tempkey>
+      </temporal>
+      <temporal>
+        <tempkt>Global Change Master Directory (GCMD) Keywords and Earth Science Vocabularies</tempkt>
+        <tempkey>Climate Normal (30-year climatology)</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>To the extent possible under law, the authors have waived all copyright and related or neighboring rights to this data under Creative Commons Zero (CC0, https://creativecommons.org/publicdomain/zero/1.0/).</accconst>
+    <useconst>To the extent possible under law, the authors have waived all copyright and related or neighboring rights to this data under Creative Commons Zero (CC0, https://creativecommons.org/publicdomain/zero/1.0/).</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Philip E. Higuera</cntper>
+          <cntorg>University of Montana</cntorg>
+        </cntperp>
+        <cntpos>Associate Professor</cntpos>
+        <cntaddr>
+          <addrtype>Mailing</addrtype>
+          <address>University of Montana</address>
+          <city>Missoula</city>
+          <state>MT</state>
+          <postal>59812</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>+1.406.243.6337</cntvoice>
+        <cntemail>philip.higuera [at] umontana.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Primary Investigator:
+Adam M Young, Ph.D., University of Idaho (ORCID: http://orcid.org/0000-0003-2668-2794);
+
+Investigators/Contributors:
+Adam M Young, Ph.D., University of Idaho (ORCID: http://orcid.org/0000-0003-2668-2794),
+Philip E Higuera, Ph.D., University of Montana (ORCID: https://orcid.org/0000-0001-5396-9956),
+John T Abatzoglou, Ph.D., University of Idaho,
+Paul A Duffy, Ph.D., Neptune and Co., Inc.,
+Feng Sheng Hu, Ph.D., University of Illinois
+Matthew Leonawicz , M.Sc., University of Alaska Fairbanks;
+
+Funding Sources:
+U.S. Bureau of Land Management Joint Fire Science Program Gradauate Research and Innovation Award (Award# 14-3-01-7),
+NASA Earth and Space Science Fellowship (Award# NNX14AK86H),
+National Science Foundation (Award#s ARC‐1023477, ARC‐1023669, EF-1241846, and EF-1606351)</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>725</rowcount>
+      <colcount>687</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conic Equal Area</mapprojn>
+          <albers>
+            <stdparll>55.0</stdparll>
+            <stdparll>65.0</stdparll>
+            <longcm>-154.0</longcm>
+            <latprjo>50.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0000000030536018158500163</absres>
+            <ordres>0.0000000030536018158500163</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <metainfo>
+    <metd>20181212</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>University of Montana</cntorg>
+          <cntper>Philip Higuera</cntper>
+        </cntorgp>
+        <cntpos>Associate Professor</cntpos>
+        <cntaddr>
+          <addrtype>Mailing</addrtype>
+          <address>University of Montana</address>
+          <city>Missoula</city>
+          <state>Montana</state>
+          <postal>59812</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>+1.406.243.6337</cntvoice>
+        <cntemail>philip.higuera[at]umontana.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
