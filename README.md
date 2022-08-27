@@ -5,9 +5,15 @@
 
 
 Global Ecology and Biogeography:  
-Young, A.M., P.E. Higuera, J.T. Abatzoglou, P.E. Duffy, and F.S. Hu. (2019).  Consequences of climatic thresholds for projecting fire activity and ecological change. Global Ecology and Biogeography. doi: 10.1111/geb.12872
+Young, A.M., P.E. Higuera, J.T. Abatzoglou, P.E. Duffy, and F.S. Hu. (2019).  Consequences of climatic thresholds for projecting fire activity and ecological change. Global Ecology and Biogeography. doi: dx.doi.org/10.1111/geb.12872 
 
-Dryad Digital Repository doi: 10.5061/dryad.82vs647
+Dryad Digital Repository doi: https://doi.org/10.5061/dryad.82vs647
+
+---
+These scripts were originally published with the associated datasets on the Dryad Data Repository and this work is licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication license. Please cite both the published paper in the GEB paper and the Dryad Repository when using or referencing the data and code used to complete this work. 
+
+* Paper citation: Young, A.M., P.E. Higuera, J.T. Abatzoglou, P.E. Duffy, and F.S. Hu. (2019). Consequences of climatic thresholds for projecting fire activity and ecological change. Global Ecology and Biogeography. doi, https://.doi.org/10.1111/geb.12872  
+* Dataset citation: Young, Adam M. et al. (2019), Data from: Consequences of climatic thresholds for projecting fire activity and ecological change, Dryad, Dataset, https://doi.org/10.5061/dryad.82vs647
 
 Contact information: 
 * Adam M. Young, Ph.D.  
@@ -39,9 +45,6 @@ This Data Dryad archive includes metadata, code, results, and figures reproducin
 		 2. z_MPI-ESM-LR.7z (7.5 MB)
 		 3. z_MPI-ESM-P.7z (4.94 GB)
 		 4. z_MRI-CGCM3.7z (4.96 GB)
-
-* Please note, in the "code", "data", and "results" directories we provide additional README files providing further details regarding all the files and code provided in this archive, as well as citations when 
-appropriate. 
 
 * The raw data used to conduct these analyses are not included in this archive. These data are already archived publicly, so we do not redistribute them ourselves. Detailed descriptions of the original datasets we downloaded to run our analyses are provided, as well as download URLs when available. 
 
