@@ -1,5 +1,5 @@
 
-# paleofire_model_analysis
+# paleofire_modeling_analysis
 
 ### Data from: Consequences of climatic thresholds for projecting fire activity and ecological change
 
