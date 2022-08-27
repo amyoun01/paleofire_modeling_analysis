@@ -10,7 +10,7 @@ Young, A.M., P.E. Higuera, J.T. Abatzoglou, P.E. Duffy, and F.S. Hu. (2019).  Co
 Dryad Digital Repository doi: https://doi.org/10.5061/dryad.82vs647
 
 ---
-These scripts were originally published with the associated datasets on the Dryad Data Repository and this work is licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication license. Please cite both the published paper in the GEB paper and the Dryad Repository when using or referencing the data and code used to complete this work. 
+These scripts were originally published with the associated datasets on the Dryad Data Repository and this work is licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication license. Please cite both the published Glob Ecol Biogeogr paper and the Dryad Repository when using or referencing the data and code used to complete this work:  
 
 * Paper citation: Young, A.M., P.E. Higuera, J.T. Abatzoglou, P.E. Duffy, and F.S. Hu. (2019). Consequences of climatic thresholds for projecting fire activity and ecological change. Global Ecology and Biogeography. doi, https://doi.org/10.1111/geb.12872  
 * Dataset citation: Young, Adam M. et al. (2019), Data from: Consequences of climatic thresholds for projecting fire activity and ecological change, Dryad, Dataset, https://doi.org/10.5061/dryad.82vs647
